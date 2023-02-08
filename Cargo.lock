@@ -121,6 +121,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-boilerplate"
+version = "0.1.0"
+dependencies = [
+ "dioxus",
+ "dioxus-web",
+]
+
+[[package]]
 name = "dioxus-core"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -439,14 +447,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6e8aaa3f231bb4bd57b84b2d5dc3ae7f350265df8aa96492e0bc394a1571909"
 dependencies = [
  "hashbrown",
-]
-
-[[package]]
-name = "mawaqeet"
-version = "0.1.0"
-dependencies = [
- "dioxus",
- "dioxus-web",
 ]
 
 [[package]]
