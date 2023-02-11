@@ -829,12 +829,12 @@ imports.wbg.__wbg_value_1f2c9e357d18d3ea = function(arg0, arg1) {
     getInt32Memory0()[arg0 / 4 + 1] = len0;
     getInt32Memory0()[arg0 / 4 + 0] = ptr0;
 };
-imports.wbg.__wbindgen_closure_wrapper624 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 36, __wbg_adapter_18);
+imports.wbg.__wbindgen_closure_wrapper641 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 40, __wbg_adapter_18);
     return addHeapObject(ret);
 };
-imports.wbg.__wbindgen_closure_wrapper1319 = function(arg0, arg1, arg2) {
-    const ret = makeMutClosure(arg0, arg1, 53, __wbg_adapter_21);
+imports.wbg.__wbindgen_closure_wrapper1336 = function(arg0, arg1, arg2) {
+    const ret = makeMutClosure(arg0, arg1, 57, __wbg_adapter_21);
     return addHeapObject(ret);
 };
 imports['./snippets/dioxus-interpreter-js-dab579f08da5298b/inline0.js'] = __wbg_star0;
@@ -873,7 +873,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('dioxus-boilerplate-2f6b72e2705861b3_bg.wasm', import.meta.url);
+        input = new URL('dioxus-boilerplate-9fda2668fa917155_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
